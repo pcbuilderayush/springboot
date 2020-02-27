@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<!-- Register Beans Here -->
+<beans>
+   
+   <bean class="com.w.Engineer" id="theEngineer"> 
+   	<!-- Setter injection goes here -->
+   		<!-- <property name="uName" value="Ayush"></property>
+   		<property name="regId" value="844252"></property> -->
+   		
+   		
+   		<!-- Constructor Injection goes like this: -->
+   		
+   		<constructor-arg value="Pratap"></constructor-arg>
+   		<constructor-arg value="1510062" type="int" index="1"></constructor-arg>
+   		
+   	
+   	
+   	</bean>  
+   </beans>
